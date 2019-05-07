@@ -26,10 +26,9 @@
     <Midl Include="EchoConnection.idl" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="TerminalConnection.def" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="readme.txt" />
+    <Natvis Include="$(SolutionDir)tools\ConsoleTypes.natvis" />
   </ItemGroup>
 </Project>
